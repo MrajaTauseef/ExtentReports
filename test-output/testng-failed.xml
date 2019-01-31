@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestCase.FBlogin">
+        <methods>
+          <include name="startReport"/>
+          <include name="FacebookLogin2"/>
+          <include name="GetResults"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.FBlogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
