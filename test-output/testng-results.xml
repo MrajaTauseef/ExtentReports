@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31883" started-at="2019-01-31T11:34:28Z" finished-at="2019-01-31T11:34:59Z">
+  <suite name="Default suite" duration-ms="32687" started-at="2019-02-01T05:39:39Z" finished-at="2019-02-01T05:40:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31883" started-at="2019-01-31T11:34:28Z" finished-at="2019-01-31T11:34:59Z">
+    <test name="Default test" duration-ms="32687" started-at="2019-02-01T05:39:39Z" finished-at="2019-02-01T05:40:11Z">
       <class name="TestCase.FBlogin">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="startReport" is-config="true" duration-ms="303" started-at="2019-01-31T16:34:28Z" finished-at="2019-01-31T16:34:28Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="startReport" is-config="true" duration-ms="326" started-at="2019-02-01T10:39:39Z" finished-at="2019-02-01T10:39:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="FacebookLogin()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="FacebookLogin" duration-ms="17517" started-at="2019-01-31T16:34:28Z" finished-at="2019-01-31T16:34:45Z">
+        <test-method status="PASS" signature="FacebookLogin()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="FacebookLogin" duration-ms="15360" started-at="2019-02-01T10:39:39Z" finished-at="2019-02-01T10:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FacebookLogin -->
-        <test-method status="PASS" signature="GetResults(org.testng.ITestResult)[pri:0, instance:TestCase.FBlogin@5622fdf]" name="GetResults" is-config="true" duration-ms="4" started-at="2019-01-31T16:34:45Z" finished-at="2019-01-31T16:34:45Z">
+        <test-method status="PASS" signature="GetResults(org.testng.ITestResult)[pri:0, instance:TestCase.FBlogin@5622fdf]" name="GetResults" is-config="true" duration-ms="2" started-at="2019-02-01T10:39:54Z" finished-at="2019-02-01T10:39:54Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetResults -->
-        <test-method status="FAIL" signature="FacebookLogin2()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="FacebookLogin2" duration-ms="12534" started-at="2019-01-31T16:34:45Z" finished-at="2019-01-31T16:34:58Z">
+        <test-method status="FAIL" signature="FacebookLogin2()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="FacebookLogin2" duration-ms="15251" started-at="2019-02-01T10:39:54Z" finished-at="2019-02-01T10:40:10Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FacebookLogin2 -->
-        <test-method status="PASS" signature="GetResults(org.testng.ITestResult)[pri:0, instance:TestCase.FBlogin@5622fdf]" name="GetResults" is-config="true" duration-ms="350" started-at="2019-01-31T16:34:58Z" finished-at="2019-01-31T16:34:58Z">
+        <test-method status="PASS" signature="GetResults(org.testng.ITestResult)[pri:0, instance:TestCase.FBlogin@5622fdf]" name="GetResults" is-config="true" duration-ms="396" started-at="2019-02-01T10:40:10Z" finished-at="2019-02-01T10:40:10Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetResults -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="tearDown" is-config="true" duration-ms="1136" started-at="2019-01-31T16:34:58Z" finished-at="2019-01-31T16:34:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCase.FBlogin@5622fdf]" name="tearDown" is-config="true" duration-ms="1316" started-at="2019-02-01T10:40:10Z" finished-at="2019-02-01T10:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
